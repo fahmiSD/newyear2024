@@ -12,7 +12,9 @@ function App() {
   };
 
   const options = {
-    preset: "fireworks",
+    sounds: {
+      enable: false,
+    },
     particles: {
       move: {
         speed: 1,
@@ -21,7 +23,7 @@ function App() {
     interactivity: {
       detectsOn: "canvas",
       events: {
-        resize: false,
+        resize: true,
         click: {
           enable: true,
           mode: "push",
@@ -40,6 +42,7 @@ function App() {
         },
       },
     ],
+    preset: "fireworks",
   };
 
   function timeLeft() {
