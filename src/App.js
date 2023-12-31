@@ -73,7 +73,6 @@ function App() {
             onComplete={() =>
               setNewYearMessage([
                 "Welcome 2024! ✨",
-                "Welcome 2024! ✨",
                 "Be Better! 🙌",
                 "Don't Stop Coding! 🧑‍💻",
               ])
